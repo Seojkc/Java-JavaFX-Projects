@@ -1,0 +1,46 @@
+/* background image for gui appn */
+#pane{
+-fx-background-color:white;
+}
+
+
+#playername{
+            -fx-text-fill: black;
+            -fx-font-size: 18;
+            -fx-font-family: 'Comic Sans MS';
+}
+#errorMsg{
+                    -fx-text-fill: black;
+                    -fx-font-size: 18;
+                    -fx-font-family: 'Comic Sans MS';
+         }
+
+
+/*setting the restart button*/
+#start{
+        -fx-background-image: url("power-button.jpg");
+}
+
+#reset
+{
+-fx-background-image: url("Restart.jpg");
+}
+
+
+
+
+/*setting for the score label.setting colour,size,font*/
+#score{
+    -fx-font-size: 20;
+    -fx-font-family: 'Comic Sans MS';
+}
+#pressedButton{
+        -fx-background-color:yellow;
+}
+#tieId{
+    -fx-font-size: 20;
+    -fx-font-family: 'Comic Sans MS';
+    -fx-text-fill: red;
+}
+
+

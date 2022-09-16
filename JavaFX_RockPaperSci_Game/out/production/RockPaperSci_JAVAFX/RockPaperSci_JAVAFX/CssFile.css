@@ -1,0 +1,27 @@
+#body{
+    -fx-background-color: white;
+}
+#reset{
+    -fx-background-color:black;
+    -fx-text-fill: white;
+}
+
+#rockBtn{
+    -fx-background-image: url("rock.png");
+    -fx-border-color: grey ;
+    -fx-border-width: 2 ;
+}
+#paperBtn{
+    -fx-background-image: url("paper.png");
+    -fx-border-color: grey ;
+    -fx-border-width: 2 ;
+}
+#sciBtn{
+    -fx-background-image: url("sci.png");
+    -fx-border-color: grey ;
+    -fx-border-width: 2 ;
+}
+#vs{
+    -fx-text-fill: red;
+   -fx-font-size: 20;
+}
